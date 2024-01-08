@@ -1,0 +1,24 @@
+.image-overlay {
+    position: relative;
+    text-align: center;
+}
+
+.image-overlay h1 {
+    position: absolute;
+    top: 40%;
+    /* Center vertically */
+    left: 50%;
+    /* Center horizontally */
+    transform: translate(-50%, -50%);
+    /* Adjust the exact center */
+    color: white;
+    /* Adjust text color as needed */
+    z-index: 10;
+    /* Ensure the text is above the image */
+}
+
+.image-overlay img {
+    width: 100%;
+    display: block;
+    /* Remove any extra space below the image */
+}

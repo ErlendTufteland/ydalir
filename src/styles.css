@@ -1,1 +1,21 @@
 /* You can add global styles to this file, and also import other style files */
+@import "theme.css";
+@import "primeng/resources/primeng.css";
+@import 'material-symbols';
+
+@font-face {
+  font-family: 'Nordic Alternative Regular';
+  src: url('./assets/fonts/Nordic Alternative Regular.ttf') format('truetype'),
+       url('./assets/fonts/nordic_alternative_regular-webfont.woff2') format('woff2'),
+       url('./assets/fonts/nordic_alternative_regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+nav {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    /* Optional: this ensures the nav bar stays on top of other content */
+}
