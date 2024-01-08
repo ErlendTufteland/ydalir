@@ -9,6 +9,7 @@ import { AmphitheaterComponent } from './amphitheater/amphitheater.component';
 import { BoardGamesComponent } from './board-games/board-games.component';
 import { ShopingCartComponent } from './shoping-cart/shoping-cart.component';
 import { KanoComponent } from './kano/kano.component';
+import { RopesCourseComponent } from './ropes-course/ropes-course.component';
 
 export const routes: Routes = [
   { path: 'order', component: OrderComponent },
@@ -20,5 +21,6 @@ export const routes: Routes = [
   { path: 'boardgames', component: BoardGamesComponent },
   { path: 'shopingCart', component: ShopingCartComponent },
   { path: 'kano', component: KanoComponent },
+  { path: 'ropesCourse', component: RopesCourseComponent },
   { path: '**', component: HomeComponent },
 ];
