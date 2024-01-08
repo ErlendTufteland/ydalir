@@ -17,5 +17,43 @@ import { InformationComponent } from './information/information.component';
 export class AppComponent {
   title = 'ydalir';
 
+  items = [
+            {
+                label: '<span class="material-symbols-outlined mr-1">home</span><span>Ydalir</span>',
+                routerLink: '/home'
+            },
+            {
+                label: ' <span class="material-symbols-outlined mr-1">hotel</span>Booking',
+                routerLink: '/booking'
+            },
+            {
+                label: '<span class="material-symbols-outlined mr-1">restaurant</span>Mat',
+                routerLink: '/food'
+            },
+            {
+                label: ' <span class="material-symbols-outlined mr-1">apparel</span>Klær',
+                routerLink: '/clothes'
+            },
+            {
+                label: '<span class="material-symbols-outlined mr-1">theater_comedy</span>Tribune',
+                routerLink: '/ampitheater'
+            },
+            {
+                label: ' <span class="material-symbols-outlined mr-1">playing_cards</span>Board games',
+                routerLink: '/boardgames'
+            },
+            {
+                label: '<span class="material-symbols-outlined mr-1">kayaking</span>Kano',
+                routerLink: '/kano'
+            },
+            {
+                label: ' <span class="material-symbols-outlined mr-1">forest</span>Klatrepark',
+                routerLink: '/ropesCourse'
+            },
+            {
+                label: ' <span class="material-symbols-outlined mr-1">shopping_cart</span>',
+                routerLink: '/ropesCourse'
+            }
+        ];
 
 }

@@ -5918,9 +5918,9 @@ body {
 
   .p-menubar {
     padding: 0.5rem;
-    background: #374151;
+    background: var(--primary-color);
     color: var(--primary-color-text);
-    border: 1px solid #424b57;
+    border: 1px solid var(--surface-hover);
     border-radius: 6px;
   }
 
@@ -5941,6 +5941,9 @@ body {
 
   .p-menubar .p-menubar-root-list>.p-menuitem>.p-menuitem-content .p-menuitem-link .p-menuitem-text {
     color: var(--primary-color-text);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
   }
 
   .p-menubar .p-menubar-root-list>.p-menuitem>.p-menuitem-content .p-menuitem-link .p-menuitem-icon {
@@ -6160,6 +6163,7 @@ body {
       top: 100%;
       left: 0;
       z-index: 1;
+      width: 175px;
     }
   }
 

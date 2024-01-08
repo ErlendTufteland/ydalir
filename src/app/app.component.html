@@ -1,6 +1,16 @@
-<div class="sticky top-0 flex flex-wrap bg-primary mb-1">
+
+
+<div class="sticky top-0 flex flex-wrap bg-primary mb-1 z-5">
+    <p-menubar [model]="items">
+    <ng-template pTemplate="start">
+        <img src="assets/img/ydalir-Icon.png" height="40" class="mr-2" />
+    </ng-template>
+   
+</p-menubar>
+
+<!-- 
     <div class="flex p-3 mr-1 border-right-3 surface-border">
-        <img src="/assets/img/ydalir-Icon.png" height="40" />
+        <img src="assets/img/ydalir-Icon.png" height="40" />
     </div>
     <div class="flex align-items-center p-3 cursor-pointer hover:surface-hover" routerLink="/home">
         <span class="material-symbols-outlined mr-1">
@@ -52,7 +62,7 @@
         forest
     </span>
        Klatrepark
-   </div>
+   </div> -->
     
 
 
@@ -71,11 +81,11 @@
     </div> -->
 
 
-    <div class="flex align-items-center p-3 cursor-pointer hover:surface-hover  border-left-3 surface-border" routerLink="/shopingCart">
+    <!-- <div class="flex align-items-center p-3 cursor-pointer hover:surface-hover  border-left-3 surface-border" routerLink="/shopingCart">
         <span class="material-symbols-outlined  mr-1">
             shopping_cart
         </span>
-    </div>
+    </div> -->
 </div>
 
 <router-outlet></router-outlet>
